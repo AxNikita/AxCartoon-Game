@@ -1,0 +1,54 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/Land.tscn" type="PackedScene" id=2]
+
+[node name="Main" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 177, 146 )
+
+[node name="Land" parent="." instance=ExtResource( 2 )]
+position = Vector2( 48, 536 )
+
+[node name="Land2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 240, 536 )
+
+[node name="Land3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 144, 536 )
+
+[node name="Land4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 336, 536 )
+
+[node name="Land5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 528, 536 )
+
+[node name="Land6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 432, 536 )
+
+[node name="Land7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 624, 536 )
+
+[node name="Land8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 816, 536 )
+
+[node name="Land9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 720, 536 )
+
+[node name="Land10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 912, 536 )
+
+[node name="Land11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1104, 536 )
+
+[node name="Land12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1008, 536 )
+
+[node name="Land13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1200, 536 )
+
+[node name="Land14" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1392, 536 )
+
+[node name="Land15" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1296, 536 )
